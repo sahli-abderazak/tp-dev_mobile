@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Isetdsitp2exercice11" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/bleu</item>
+    </style>
+
+    <style name="Theme.Isetdsitp2exercice11" parent="Base.Theme.Isetdsitp2exercice11" />
+
+    <!-- New customized theme -->
+    <style name="Theme.TP2_customized" parent="Base.Theme.Isetdsitp2exercice11">
+        <item name="colorPrimary">@color/bleu</item>
+        <item name="colorAccent">@color/vert</item>
+        <item name="android:textColor">@color/bleu</item>
+    </style>
+    <style name="myButtonStyle" parent="android:Widget.Button">
+        <item name="android:textColor">@color/vert</item>
+        <item name="android:padding">5dp</item>
+    </style>
+</resources>
